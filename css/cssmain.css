@@ -1,0 +1,128 @@
+
+/*header starts */
+
+/*Menu*/
+
+ul  /*for unordered list view*/
+{
+    float: left;
+    width: 100%;
+    padding: 10px; 
+    margin: 0;
+    list-style-type: none;
+}
+
+a   /*for hyperlink without any mouse event*/
+{
+    float: left;
+    width: 6em;
+    text-decoration: none;
+    color: white;
+    background-color: hotpink;
+    padding: 0.2em 0.6em;
+    border-right: 1px solid white;
+}
+
+a:hover /*for hyperling when mouse hover*/
+{
+    background-color: pink;
+}
+
+li /*list items*/
+{
+    display: inline;
+}
+/*Menu*/
+
+div.header  /*for header part specifically for the menu to be listed*/
+{
+    margin-top: 0px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    position: absolute;
+    width: 1000px;
+}
+/*header ends */
+
+
+/*body starts*/
+div.left    /*to specify the left margins to the contents*/
+{
+    position: absolute;
+    float: left;
+    height: 50px;
+    width: 600px;
+    margin-left: 35px;
+}
+
+div.center  /*to specify the center margins to the contents*/
+{
+    float: right;
+    height: 100px;
+    width: 1000px;
+    margin-left: 100px;
+    position: absolute;
+    margin-top: 20px;
+}
+
+body    /*for the body background and image*/
+{
+    background-image: url("../images/background.png");
+}
+
+
+div.container   /*specify the margins for the content to be display*/
+{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 450px;
+    margin-right: 100px;
+    margin-bottom: 20px;
+    overflow: visible;
+}
+
+
+table   /*to specify the table margins, font size and borders*/
+{
+    border: 0px; /*width: 1170px; height: 600px;  */
+    margin-left: 10px;
+    margin-top: 4%;
+    font-size: 20px;
+}
+
+td  /*for the table data*/
+{
+    /*border: 1px solid black; */
+    padding: 1px;
+    font-size: 16px;
+}
+
+th  /*for table headning*/
+{
+    /*border: 1px solid black; */
+    padding: 20px;
+    font-size: 16px;
+}
+
+.tblborder  /*for table border spacing and padding*/
+{
+    border: 1px solid orange;
+    padding: 5px;
+}
+
+td:hover img    /*specific for the table data image*/
+{
+    display: block;
+}
+
+/*body ends */
+
+/*footer starts */
+#footer
+{
+    position: relative;
+    bottom: 1em;
+    margin-left: 100px;
+}
+/*footer ends */
